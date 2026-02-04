@@ -18,7 +18,6 @@ From a terminal:
     cd backend-ml
     python -m venv venv
     source venv/bin/activate
-    pip install -r requirements.txt
     uvicorn server:app --reload
 
 The backend API will run at:
