@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat – Mental Health Prototype</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="chat-container">
+
+    <header class="chat-header">
+      <h2>Support Chatbot</h2>
+      <p class="chat-subtitle">
+        Academic prototype for demonstration purposes only. 
+        This chatbot does not provide medical advice or diagnosis.
+      </p>
+    </header>
+
+    <div class="chat-box" id="chatBox">
+      <div class="message bot">
+        <p>
+          Hi 👋 I’m here to listen.  
+          You can talk to me about how you’re feeling today.
+        </p>
+      </div>
+    </div>
+
+    <div class="chat-input-area">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Type your message here..."
+      />
+      <button id="sendBtn">Send</button>
+    </div>
+
+    <footer class="chat-footer">
+      <p>
+        If you are in immediate danger, contact emergency services or
+        Samaritans (116 123).
+      </p>
+    </footer>
+
+  </div>
+
+  <script src="js/chat.js"></script>
+</body>
+</html>

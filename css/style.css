@@ -1,0 +1,186 @@
+/* ===== Global Styles ===== */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFF4E8; /* Cream */
+  margin: 0;
+  padding: 0;
+  color: #4A4A4A; /* Warm Gray */
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+/* ===== Headings ===== */
+
+h1 {
+  text-align: center;
+  color: #4A4A4A;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #6a6a6a;
+}
+
+/* ===== Consent Page ===== */
+
+.consent-box {
+  background-color: #FFF4E8;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 6px solid #FFB7A5; /* Peach accent */
+}
+
+.consent-box h2 {
+  margin-top: 0;
+}
+
+.consent-box ul {
+  margin-left: 20px;
+}
+
+.consent-confirm {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* ===== Buttons ===== */
+
+.btn {
+  display: block;
+  width: fit-content;
+  margin: 25px auto;
+  padding: 12px 22px;
+  background-color: #FF8E7A; /* Soft Coral */
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #FFB7A5; /* Peach */
+}
+
+/* ===== Footer ===== */
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* ===== Chat Page ===== */
+
+.chat-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.chat-header {
+  padding: 18px;
+  background-color: #FFB7A5; /* Peach */
+  color: #4A4A4A;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.chat-header h2 {
+  margin: 0;
+}
+
+.chat-subtitle {
+  font-size: 0.9em;
+  margin-top: 5px;
+  color: #4A4A4A;
+}
+
+/* ===== Chat Area ===== */
+
+.chat-box {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #FFF4E8;
+}
+
+/* ===== Messages ===== */
+
+.message {
+  max-width: 70%;
+  margin-bottom: 15px;
+  padding: 12px 16px;
+  border-radius: 18px;
+  line-height: 1.4;
+  font-size: 0.95em;
+}
+
+.message.bot {
+  background-color: #AFC3A3; /* Muted Sage */
+  color: #2f2f2f;
+  align-self: flex-start;
+}
+
+.message.user {
+  background-color: #FF8E7A; /* Soft Coral */
+  color: white;
+  align-self: flex-end;
+}
+
+/* ===== Input Area ===== */
+
+.chat-input-area {
+  display: flex;
+  padding: 12px;
+  border-top: 1px solid #e0e0e0;
+  background-color: #ffffff;
+}
+
+.chat-input-area input {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.chat-input-area button {
+  margin-left: 10px;
+  padding: 10px 18px;
+  background-color: #FF8E7A;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.chat-input-area button:hover {
+  background-color: #FFB7A5;
+}
+
+/* ===== Chat Footer ===== */
+
+.chat-footer {
+  text-align: center;
+  font-size: 0.85em;
+  padding: 10px;
+  color: #6a6a6a;
+  background-color: #FFF4E8;
+}
